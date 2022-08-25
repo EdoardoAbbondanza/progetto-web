@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web development using a framework</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"
+          ><img src="img/React-icon.64.svg.png" alt="React logo"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Web developing using a framework</h1>
+        <p>Why use a framework and what to use</p>
+        <a href="" class="hero-btn">To know more</a>
+      </div>
+    </section>
+
+    <!-- Why use a framework -->
+    <section class="WhyUseFramework">
+      <h1>Why use a framework</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. At aut quo eos
+        dicta ex? Dignissimos natus minima, quos similique consectetur dolorem
+        inventore. Commodi fugit maxime numquam eum consequuntur dolorum nemo.
+      </p>
+
+      <div class="row">
+        <div class="WhyUseFramework-col">
+          <h3>Avoid to reinvent the weel</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eius
+            quas veniam minus, unde sed, ipsam dignissimos vel temporibus minima
+            neque ipsa assumenda quo laborum odio, asperiores voluptas iure
+            quia!
+          </p>
+        </div>
+        <div class="WhyUseFramework-col">
+          <h3>Use framework to:</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eius
+            quas veniam minus, unde sed, ipsam dignissimos vel temporibus minima
+            neque ipsa assumenda quo laborum odio, asperiores voluptas iure
+            quia!
+          </p>
+          <ul class="WhyUseFramework-col-list">
+            <li>help the development</li>
+            <li>use standard ways to implement applications</li>
+            <li>be ready to work in a firm using the same framework</li>
+          </ul>
+        </div>
+        <div class="WhyUseFramework-col">
+          <h3>Most used frameworks</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eius
+            quas veniam minus, unde sed, ipsam dignissimos vel temporibus minima
+            neque ipsa assumenda quo laborum odio, asperiores voluptas iure
+            quia!
+          </p>
+          <ul class="WhyUseFramework-col-list">
+            <li>
+              <a href="https://github.com/facebook/react">React</a> : Developed
+              by Facebook/Meta
+            </li>
+            <li>
+              <a href="https://github.com/angular/angular">Angular</a> :
+              Developed by Google
+            </li>
+            <li>
+              <a href="https://github.com/vuejs/vue">Vue JS</a> : Created by
+              Evan You and supported by a huge community
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- <section>
+            <h1>Why use a framework</h1>
+            <p>
+            <ul>
+                <li>Avoid to reinvent the weel</li>
+                <li>Use framework to:</li>
+                <ul>
+                    <li>help the development</li>
+                    <li>use standard ways to implement applications</li>
+                    <li>be ready to work in a firm using the same framework</li>
+                </ul>
+                <li>most used frameworks:</li>
+                <ul>
+                    <li><a href="https://github.com/facebook/react">React</a> : Developed by Facebook/Meta</li>
+                    <li><a href="https://github.com/angular/angular">Angular</a> : Developed by Google</li>
+                    <li><a href="https://github.com/vuejs/vue">Vue JS</a> : Created by Evan You and supported by a huge
+                        community</li>
+                </ul>
+            </ul>
+            </p>
+            </section> -->
+    <!-- <h2>Why React</h2>
+            <p>
+            <ul>
+                <li>According to Google trends React is the most searched topic among the Web development frameworks
+                    <p>
+                        <script type="text/javascript"
+                            src="https://ssl.gstatic.com/trends_nrtr/3045_RC01/embed_loader.js"></script>
+                        <script
+                            type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", { "comparisonItem": [{ "keyword": "React framework", "geo": "", "time": "today 12-m" }, { "keyword": "Angular framework", "geo": "", "time": "today 12-m" }, { "keyword": "Vue framework", "geo": "", "time": "today 12-m" }], "category": 5, "property": "" }, { "exploreQuery": "cat=5&q=React%20framework,Angular%20framework,Vue%20framework&date=today 12-m,today 12-m,today 12-m", "guestPath": "https://trends.google.it:443/trends/embed/" }); </script>
+                    </p>
+                </li>
+                <li>According to Stack Overflow Trends it has the higher interest among web framework.
+                    <a href="https://insights.stackoverflow.com/trends?tags=reactjs%2Cvue.js%2Cangular%2Cangularjs">Stack
+                        Overflow Trends</a>
+                    <img src="img/ReactAngularVue.svg" alt="React vs Angular vs Vue">
+                </li>
+            </ul>
+            </p>
+            <h2><a href="https://reactjs.org/">React – A JavaScript library for building user interfaces</a></h2>
+            <p>From React documentation</p>
+            <h3>What is React?</h3>
+            <ul>
+                <li>React, sometimes referred to as a frontend JavaScript framework, is a JavaScript library created by
+                    Facebook.</li>
+                <li>React is a tool for building UI components.</li>
+                <li>Reusable UI components</li>
+            </ul>
+            <h3>React creates a VIRTUAL DOM in memory.</h3>
+            <ul>
+                <li>The Virtual DOM is an abstraction of the HTML DOM. It is lightweight and detached from the
+                    browser-specific implementation details. It’s better to think of the virtual DOM as React’s local
+                    and simplified copy of the HTML DOM. It allows React to do its computations within this abstract
+                    world and skip the “real” DOM operations, often slow and browser-specific.</li>
+                <li>React only changes what needs to be changed!</li>
+                <li>When a component’s state changes, it triggers the re-render of the entire component sub-tree,
+                    starting at that component as root.</li>
+                <li><img src="https://velog.velcdn.com/images%2Fsyoung125%2Fpost%2Ffeceb168-5c24-45dd-8db5-08c839234bd4%2Fimage.png"
+                        alt="React DOM"></li>
+                <li><a href="https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/"></a>
+                    <img src="https://miro.medium.com/proxy/0*2Y__6_3e2eiN8h6A" alt="React component lifecycle">
+                </li>
+                <ul>
+                    <li>Initialization: This is the stage where the component is constructed with the given Props and
+                        default
+                        state. This is done in the constructor of a Component Class.</li>
+                    <li>Mounting: Mounting is the stage of rendering the JSX returned by the render method itself.</li>
+                    <li>Updating: Updating is the stage when the state of a component is updated and the application is
+                        repainted.</li>
+                    <li>Unmounting: As the name suggests Unmounting is the final step of the component lifecycle where
+                        the component is removed from the page.</li>
+                </ul>
+            </ul>
+            <h3>To use React in production, you need npm which is included with Node.js</h3>
+            <h3>Everything is just JavaScript. Not only are HTML structures expressed via JSX, the recent trends
+                also tend to put CSS management inside JavaScript as well.</h3>
+            <h3>Scoping CSS in React is often done via CSS-in-JS solutions (e.g. styled-components and emotion).
+                This introduces a new component-oriented styling paradigm that is different from the normal CSS
+                authoring process.</h3>
+            <h3><a href="https://reactnative.dev/">React Native · Learn once, write anywhere</a></h3>
+            <ul>
+                <li>Create native apps for Android and iOS using React</li>
+            </ul>
+        </section> -->
+
+    <!-- Javascript for toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
